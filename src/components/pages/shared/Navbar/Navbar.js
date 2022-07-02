@@ -17,7 +17,7 @@ const Navbar = () => {
                             <li> <Link to='/calendar'>Calendar</Link></li>
                         </ul>
                     </div>
-                    <Link to='/' className='text-xl md:text-2xl '>Endgame</Link>
+                    <Link to='/' className='text-xl md:text-2xl '> the End game !!</Link>
                 </div>
                 {/* ========================= PC Navbar  =========================  */}
                 <div className="navbar-center hidden lg:flex">
@@ -28,7 +28,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <img className='w-12 h-12 rounded-full' src={require('../../')} alt="Images" />
+                    <img className='w-12 h-12 rounded-full' src={require('../../Images/ab.jpg')} alt="Images" />
                 </div>
             </div>
         </div>
